@@ -1,0 +1,11 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-client = { version = "0.30.1" }
+solana-sdk = "1.16.0"
+pyth-solana-receiver-sdk = "0.4.0"  # Use the correct SDK
+anyhow = "1.0"  # For error handling
+tokio = { version = "1", features = ["full"] }  # For async runtime

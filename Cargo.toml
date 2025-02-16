@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "client",
+    "program",
+]
+resolver = "2"  # Use resolver version 2 for Rust 2021 edition
+
+[profile.release]
+overflow-checks = true
+
+
